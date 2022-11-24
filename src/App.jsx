@@ -11,6 +11,7 @@ function App() {
 
   const [score, setScore] = useState(0);
   const [topScore, setTopScore] = useState(0);
+  // create a function to get the max score from the db and the corresponding username
   const [username, setUsername] = useState("");
 
   import('./App.css')

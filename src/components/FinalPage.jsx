@@ -30,7 +30,7 @@ const FinalPage = ({
   return (
     <Card>
         <h1 className="heading">You have finished the quiz, {username}!</h1>
-        <h3 className="primary_text">Your final score is: </h3>
+        <h3 className="primary_text_final">Your final score is: </h3>
         <h3 className="final_score">{score}</h3>
 
         <button className="play_again_btn" onClick={handleClick}>Play Again</button>

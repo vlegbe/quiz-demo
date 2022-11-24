@@ -35,6 +35,7 @@ const StartingPage = ({
 
       <p className="top_score">
         top score: <span>{topScore}</span>
+        {/* change to display top score within the db amd the corresponding username */}
       </p>
     </Card>
   );
