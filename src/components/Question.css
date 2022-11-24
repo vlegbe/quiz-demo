@@ -1,7 +1,6 @@
 .question {
     text-align: center;
     margin: 2rem 0;
-
 }
 
 .answers {
@@ -24,20 +23,24 @@
     letter-spacing: 2px;
     font-size: 1rem;
     border-radius: 5px;
-
 }
 
 .answer:hover {
     background-color: #8ec5fc;
 }
 
-.score, .question_number {
+.score,
+.question_number {
     font-weight: bold;
     position: absolute;
     bottom: 1rem;
 }
 
 .score {
+    /* extra css */
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
     left: 1rem
 }
 
