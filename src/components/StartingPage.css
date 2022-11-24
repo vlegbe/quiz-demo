@@ -7,10 +7,10 @@
     margin: 2rem 0 5rem;
     /* margin : top right bottom left */
     /* in this case: margin: top right/left bottom */
-
 }
 
-.username_input, .start_btn{
+.username_input,
+.start_btn {
     /* outline: 0; */
     /* An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out". */
     /* the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline. */
@@ -18,18 +18,18 @@
     padding: 1rem;
     border-radius: 25px;
     display: block;
-
-
 }
 
-.username_input{
+.username_input {
     border: 1px solid black;
     background-color: whitesmoke;
     margin: 2px auto 5rem;
-
+    /* additional css added */
+    display: block;
+    width: 60%;
 }
 
-.start_btn{
+.start_btn {
     border: 0;
     cursor: pointer;
     background-color: black;
@@ -46,5 +46,4 @@
     bottom: 1rem;
     left: 1rem;
     /* top score is a position absolute within a position relative (i.e card) which allows it to stay in the bottom corner and to use properties like left, right etc  */
-
 }
