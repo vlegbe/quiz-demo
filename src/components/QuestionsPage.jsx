@@ -1,5 +1,5 @@
 import React from "react";
-import { getQuestions } from "../questions";
+import { questions } from "../questions";
 import {useState} from 'react';
 import Question from "./Question";
 
