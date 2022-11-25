@@ -17,6 +17,20 @@ const StartingPage = ({
     }
   };
 
+  //Checks to see if User already exists
+
+  async function checkUserExists (req, res, next) {
+    const user = await user.findOne({where: {
+      username: req.body.username
+    }})
+    if (!User){
+      next();
+    } else {
+      req.send ("this username already exists, please choose another :) ")
+    }
+  }
+
+
   return (
     <Card>
       <h1 className="header">welcome to the quiz</h1>

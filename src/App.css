@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #7cc6fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 * {
@@ -12,13 +17,6 @@ body {
   color: #ffffff;
 }
 
-body {
-  background-color: #7cc6fe;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 
 .container {
   margin: 0;
@@ -30,22 +28,22 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-image: url('./components/assets/blob-scene-haikei-bright.png');
+  background-image: url('../src/components/assets/blob-scene-haikei-bright.png');
   background-size: cover;
 
   background-color: rgba(178, 112, 146, 255);
 }
 
 .app {
-  background-color: #252d4a;
-  width: 450px;
-  min-height: 200px;
-  height: min-content;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-  display: flex;
-  justify-content: space-evenly;
+    background-color: #252d4a;
+    width: 450px;
+    min-height: 200px;
+    height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .score-section {

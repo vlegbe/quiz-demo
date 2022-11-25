@@ -13,8 +13,18 @@ function App() {
   const [topScore, setTopScore] = useState(0);
   const [username, setUsername] = useState("");
 
+  import('./App.css')
+
   return (
-    <>
+    <div className="container">
+    {showStartingPage && (
+      <StartingPage
+        setShowStartingPage={setShowStartingPage}
+        setShowQuestionsPage={setShowQuestionsPage}
+        topScore={topScore}
+        username={username}
+        setUsername={setUsername}/>
+      )}
       {showStartingPage && (
         <StartingPage
           setShowStartingPage={setShowStartingPage}
@@ -44,8 +54,9 @@ function App() {
           setUsername={setUsername}
         />
       )}
-    </>
+    </div>
   );
 }
 
 export default App;
+
